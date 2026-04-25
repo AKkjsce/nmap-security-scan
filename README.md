@@ -220,6 +220,24 @@ Uses the Nmap Scripting Engine (NSE) to check for known vulnerabilities.
 \- vuln\_output.txt – Vulnerability scan output  
 
 
+---
+
+
+
+\## Screenshots Folder
+
+
+
+\- cmd1.png - basic scan  
+
+\- cmd2.png - service version detection
+
+\- cmd3.1.png & cmd3.2.png - agressive scan
+
+\- cmd4.png - port scan
+
+\- cmd5.1.png & cmd5.2.png – Vulnerability scan
+
 
 ---
 
