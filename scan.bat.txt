@@ -1,0 +1,10 @@
+@echo off
+echo Running Nmap Scans...
+
+nmap -sV scanme.nmap.org -oN scan_output.txt
+nmap -p 1-1000 scanme.nmap.org -oN detailed_scan.txt
+nmap -A scanme.nmap.org -oN aggressive_scan.txt
+nmap --script vuln scanme.nmap.org -oN vuln_output.txt
+
+echo Done!
+pause

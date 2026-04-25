@@ -1,0 +1,5 @@
+nmap scanme.nmap.org
+nmap -sV scanme.nmap.org
+nmap -A scanme.nmap.org
+nmap -p 1-1000 scanme.nmap.org
+nmap --script vuln scanme.nmap.org
